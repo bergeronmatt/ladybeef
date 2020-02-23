@@ -1,0 +1,67 @@
+//Mixin Functions here
+
+//Custom Button Mixin
+
+.custom-btn(@bg-color, @border-color, @width, @height, @font-color){
+    display: block;
+    background-color: @bg-color;
+    border-color: @border-color;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: @height;
+    font-size: 18px;
+    border-radius: 8px;
+    color: @font-color;
+
+    &:hover{
+        background-color: @border-color;
+        border-color: @bg-color;
+        color: @border-color;
+    }
+}
+
+//Text variable mixins
+
+.header-text{
+        font-family: 'Dancing Script', ;
+        font-weight: bold;
+        color: @mint-green;
+        font-size: 96px;
+    }
+
+
+.section-text{
+    font-family: 'Lora', ;
+    font-weight:normal;
+    color: @mint-green;
+    font-size: 36px;
+}
+
+.title-text {
+    font-family: 'Lora', ;
+    font-weight: bold;
+    color: @teal;
+    font-size: 18px;
+}
+
+.body-text{
+    font-family: 'Lora', ;
+    font-weight: normal;
+    color: @teal;
+    font-size: 12px;
+}
+
+.info-text{
+    font-family: 'Lora', ;
+    font-weight: lighter;
+    color: @teal;
+    font-size: 8px;
+}
+
+.nav-text{
+    font-family: 'Lora', ;
+    font-weight: normal;
+    color: @marble-white;
+    font-size: 20px;
+}
