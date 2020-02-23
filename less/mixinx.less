@@ -1,0 +1,22 @@
+//Mixin Functions here
+
+//Custom Button Mixin
+
+.custom-btn(@bg-color, @border-color, @width, @height, @font-color){
+    display: block;
+    background-color: @bg-color;
+    border-color: @border-color;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: @height;
+    font-size: 18px;
+    border-radius: 8px;
+    color: @font-color;
+
+    &:hover{
+        background-color: @border-color;
+        border-color: @bg-color;
+        color: @border-color;
+    }
+}
