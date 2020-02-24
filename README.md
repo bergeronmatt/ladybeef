@@ -14,4 +14,4 @@ Timeline
 - 5:20pm EST clock in and began finishing up the landing page
 - 5:43pm completed the main layout of the laning page, need to add footer and some minor visual stuff.
 - 5:53pm completed the footer, will come back and clean up the visual stuff and the links with buttons once the rest of the pages are built.
-
+- 6:02pm added the Coaching and Client Check-In pages with the respective navbar links. Pages have placeholders, these will hold the forms later on.
