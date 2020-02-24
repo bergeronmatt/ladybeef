@@ -248,16 +248,26 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
+  margin: auto;
 }
 .emblem {
   width: 300px;
+  margin: auto;
+  display: flex;
   border: purple solid 1px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 5px;
 }
 .social-media-emblems {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   border: black solid 1px;
 }
 .sm-emblem {
