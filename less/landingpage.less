@@ -3,10 +3,11 @@
 //Header Section
 
 .title{
-    background-color: grey;
+    background-color: @marble-white;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 200px
 }
 
 h1{
@@ -42,7 +43,6 @@ a{
 
 .main-content{
 
-    border: red solid 2px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -53,26 +53,30 @@ a{
 
 .emblem{
     width: 300px;
-    margin: auto;
+    margin: 50px auto;
     display: flex;
-    border: purple solid 1px;
+    
 }
 
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 10px 5px;
+    margin: 10px 5px 50px 5px;
+}
+
+.about-btn, .coaching-btn, .blog-btn{
+    .custom-btn(@mint-green, @powder-white, @powder-white)
 }
 
 //Social Media Eblems
 
 .social-media-emblems{
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: black solid 1px;
+    margin: auto;
 }
 
 .sm-emblem{

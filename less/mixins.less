@@ -2,14 +2,14 @@
 
 //Custom Button Mixin
 
-.custom-btn(@bg-color, @border-color, @width, @height, @font-color){
+.custom-btn(@bg-color, @border-color, @font-color){
     display: block;
     background-color: @bg-color;
     border-color: @border-color;
     margin: 0 10px 20px;
     cursor: pointer;
-    width: @width;
-    height: @height;
+    width: 220px;
+    height: 50px;
     font-size: 18px;
     border-radius: 8px;
     color: @font-color;
@@ -17,7 +17,7 @@
     &:hover{
         background-color: @border-color;
         border-color: @bg-color;
-        color: @border-color;
+        color: @bg-color;
     }
 }
 
