@@ -222,6 +222,11 @@ h1 {
   color: #60C291;
   font-size: 96px;
 }
+a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #DCBBB4;
+}
 nav {
   background: #60C291;
   width: 100%;
@@ -267,19 +272,19 @@ a {
 .blog-btn {
   display: block;
   background-color: #60C291;
-  border-color: #FAFAFA;
+  border-color: #F4EFEB;
   margin: 0 10px 20px;
   cursor: pointer;
   width: 220px;
   height: 50px;
   font-size: 18px;
   border-radius: 8px;
-  color: #FAFAFA;
+  color: #F4EFEB;
 }
 .about-btn:hover,
 .coaching-btn:hover,
 .blog-btn:hover {
-  background-color: #FAFAFA;
+  background-color: #F4EFEB;
   border-color: #60C291;
   color: #60C291;
 }
@@ -293,4 +298,14 @@ a {
 .sm-emblem {
   width: 100px;
   height: 100px;
+}
+footer {
+  background: #60C291;
+  color: #F4EFEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-top: 50px;
+  font-size: large;
 }

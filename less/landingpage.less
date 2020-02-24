@@ -14,12 +14,20 @@ h1{
     .header-text();
 }
 
+a{
+    &:hover{
+        text-decoration: underline;
+        font-weight: bolder;
+        color: @baby-pink;
+    }
+}
+
 //Nav Section
 
 
 
 nav{
-    background: @main-color;
+    background: @mint-green;
     width:100%;
     height: 100px;
     margin-top: 0;
@@ -66,7 +74,7 @@ a{
 }
 
 .about-btn, .coaching-btn, .blog-btn{
-    .custom-btn(@mint-green, @powder-white, @powder-white)
+    .custom-btn(@mint-green, @marble-white, @marble-white)
 }
 
 //Social Media Eblems
@@ -85,3 +93,13 @@ a{
 }
 
 
+footer{
+    background: @mint-green;
+    color: @marble-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 50px;
+    font-size: large;
+}
