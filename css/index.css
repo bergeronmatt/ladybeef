@@ -210,16 +210,22 @@ img {
   margin: 0 auto;
 }
 .title {
-  background-color: grey;
+  background-color: #F4EFEB;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
 }
 h1 {
   font-family: 'Dancing Script';
   font-weight: bold;
   color: #60C291;
   font-size: 96px;
+}
+a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #DCBBB4;
 }
 nav {
   background: #60C291;
@@ -243,24 +249,170 @@ a {
   font-size: 20px;
 }
 .main-content {
-  border: red solid 2px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
+  margin: auto;
 }
 .emblem {
   width: 300px;
-  border: purple solid 1px;
+  margin: 50px auto;
+  display: flex;
 }
-.social-media-emblems {
-  width: 100%;
+.buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  border: black solid 1px;
+  justify-content: center;
+  margin: 10px 5px 50px 5px;
+}
+.about-btn,
+.coaching-btn,
+.blog-btn {
+  display: block;
+  background-color: #60C291;
+  border-color: #F4EFEB;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 220px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #F4EFEB;
+}
+.about-btn:hover,
+.coaching-btn:hover,
+.blog-btn:hover {
+  background-color: #F4EFEB;
+  border-color: #60C291;
+  color: #60C291;
+}
+.social-media-emblems {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
 }
 .sm-emblem {
   width: 100px;
   height: 100px;
+}
+footer {
+  background: #60C291;
+  color: #F4EFEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-top: 50px;
+  font-size: large;
+}
+.coaching-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.signup-form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 10px 5px 50px 5px;
+  background: grey;
+  width: 540px;
+  height: 280px;
+  margin: auto;
+}
+.coaching-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.signup-form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 10px 5px 50px 5px;
+  background: grey;
+  width: 540px;
+  height: 280px;
+  margin: auto;
+}
+.about-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.about-title {
+  margin: 50px auto;
+  display: flex;
+}
+.carousel-form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 10px 5px 50px 5px;
+  background: grey;
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.carousel-slide {
+  display: flex;
+  width: 60%;
+  height: 500px;
+}
+.content {
+  display: flex;
+  width: 60%;
+  margin: 50px auto;
+}
+.testimonial-btn,
+.publication-btn {
+  display: block;
+  background-color: #60C291;
+  border-color: #F4EFEB;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 220px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #F4EFEB;
+}
+.testimonial-btn:hover,
+.publication-btn:hover {
+  background-color: #F4EFEB;
+  border-color: #60C291;
+  color: #60C291;
+}
+#prev-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  color: #60C291;
+  opacity: 0.8;
+}
+#next-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  color: #60C291;
+  opacity: 0.8;
 }
