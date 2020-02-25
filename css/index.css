@@ -328,3 +328,91 @@ footer {
   height: 280px;
   margin: auto;
 }
+.coaching-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.signup-form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 10px 5px 50px 5px;
+  background: grey;
+  width: 540px;
+  height: 280px;
+  margin: auto;
+}
+.about-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.about-title {
+  margin: 50px auto;
+  display: flex;
+}
+.carousel-form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 10px 5px 50px 5px;
+  background: grey;
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.carousel-slide {
+  display: flex;
+  width: 60%;
+  height: 500px;
+}
+.content {
+  display: flex;
+  width: 60%;
+  margin: 50px auto;
+}
+.testimonial-btn,
+.publication-btn {
+  display: block;
+  background-color: #60C291;
+  border-color: #F4EFEB;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 220px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #F4EFEB;
+}
+.testimonial-btn:hover,
+.publication-btn:hover {
+  background-color: #F4EFEB;
+  border-color: #60C291;
+  color: #60C291;
+}
+#prev-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  color: #60C291;
+  opacity: 0.8;
+}
+#next-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  color: #60C291;
+  opacity: 0.8;
+}

@@ -1,0 +1,63 @@
+
+.about-main-content{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.about-title{
+    margin: 50px auto;
+    display: flex;
+}
+
+.carousel-form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 10px 5px 50px 5px;
+    background: grey;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide{
+    display: flex;
+    width: 60%;
+    height: 500px;
+}
+
+.content{
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.testimonial-btn, .publication-btn{
+    .custom-btn(@mint-green, @marble-white, @marble-white)
+}
+
+#prev-btn{
+    position: absolute;
+    top:50%;
+    z-index: 10;
+    left: 5%;
+    color:@mint-green;
+    opacity: 0.8;
+    
+}
+
+#next-btn{
+    position: absolute;
+    top:50%;
+    z-index: 10;
+    right: 5%;
+    color:@mint-green;
+    opacity: 0.8;
+}
