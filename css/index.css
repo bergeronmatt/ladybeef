@@ -222,6 +222,12 @@ h1 {
   color: #60C291;
   font-size: 96px;
 }
+h2 {
+  font-family: 'Lora';
+  font-weight: normal;
+  color: #60C291;
+  font-size: 36px;
+}
 a:hover {
   text-decoration: underline;
   font-weight: bolder;
@@ -415,4 +421,138 @@ footer {
   right: 5%;
   color: #60C291;
   opacity: 0.8;
+}
+.buttons {
+  margin-top: 3%;
+}
+.testimonial-title {
+  margin: 50px auto;
+  display: flex;
+}
+.testimonial-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.client-testimonial {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+}
+.buttons {
+  margin-top: 3%;
+}
+.publication-container {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.publication-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.image-placeholder {
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+}
+.publication-section button {
+  display: block;
+  background-color: #F4EFEB;
+  border-color: #60C291;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 220px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #60C291;
+}
+.publication-section button:hover {
+  background-color: #60C291;
+  border-color: #F4EFEB;
+  color: #F4EFEB;
+}
+.media-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.media-title {
+  margin: 50px auto;
+  display: flex;
+}
+.media-section .image-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 0 20px;
+  padding: 0 20px;
+}
+.media-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.media-section {
+  width: 60%;
+  margin: 30px auto;
+  display: flex;
+  align-content: flex-start;
+}
+.academic-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.academic-title {
+  margin: 50px auto;
+  display: flex;
+}
+.academic-section .image-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 0 20px;
+  padding: 0 20px;
+}
+.academic-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.academic-section {
+  width: 60%;
+  margin: 30px auto;
+  display: flex;
+  align-content: flex-start;
 }
