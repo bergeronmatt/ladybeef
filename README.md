@@ -16,3 +16,8 @@ Timeline
 - 5:53pm completed the footer, will come back and clean up the visual stuff and the links with buttons once the rest of the pages are built.
 - 6:02pm added the Coaching and Client Check-In pages with the respective navbar links. Pages have placeholders, these will hold the forms later on.
 - 7:09pm formatted the About section, and added in the image carousel.
+
+2/25/2020
+- 8:20pm EST clock in and finished up the about page main formatting
+- 8:42pm added the testimonial section and finished the main formatting
+- 9:00pm added the publications page and the main formatting 
