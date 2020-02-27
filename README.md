@@ -22,3 +22,10 @@ Timeline
 - 8:42pm added the testimonial section and finished the main formatting
 - 9:00pm added the publications page and the main formatting 
 - Clock Out: 9:20pm added the media and academic publication pages and completed the general formatting
+
+2/26/2020
+- Clock in: 6:40pm EST begin working on the blog section
+- Clock out: 8:00pm worked on blog, but will need to create a more indepth framework and analyze the current blog to check viability for future blog.
+
+2/27/2020
+-Clock in: 3:20pm EST resume working on blog section
