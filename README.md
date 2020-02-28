@@ -31,3 +31,4 @@ Timeline
 - Clock in: 3:20pm EST resume working on blog section
 - Clock out: 4:10 EST laid out blog design on paper, researched if there was a better way to integrate a blog system for the client in order to reduce cost and use
   of developer, utilizing a stylized blog from Wordpress seems the most viable option.
+- Clock in: 7:55pm - continue working on blog
