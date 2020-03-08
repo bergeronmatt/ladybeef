@@ -33,3 +33,23 @@ Timeline
   of developer, utilizing a stylized blog from Wordpress seems the most viable option.
 - Clock in: continue working on blog 7:55pm
 - Clock out: worked on blog formatting 8:53pm
+
+2/28/2020
+- Clock in: 9:00am EST: began researching transferrance of domain information
+- 10:00am: will need a premium or business account in order to build a custom site on wordpress and allow for the client to reach the backend
+- 11:00am : blog styling complete for now, begin working on the mobile reactivity.
+- 12:00pm : clock out
+- 1:00pm : continue working on mobile layout.
+- 4:30pm: clockout, paused working on mobile layout.
+
+2/29/2020 
+- 10:00am: clock in - continue working on mobile reactivity and layout
+- 1:20 pm: clock out
+- 2:00pm : clock in- continue working on mobile reactivity.
+- 5:40pm : clock out - some bugs in the js when going mobile on local server need to be worked out prior to launch
+
+3/1/2020
+- 12:00pm clock in - working on debugging the JS
+- 3:40pm - clock out - adding in new JS for appearance and style
+- 4:15pm - clock in - focus on mobile reactivity and cleaning up appearance
+- 7:45pm - clock out
