@@ -53,3 +53,39 @@ Timeline
 - 3:40pm - clock out - adding in new JS for appearance and style
 - 4:15pm - clock in - focus on mobile reactivity and cleaning up appearance
 - 7:45pm - clock out
+
+3/2/2020
+- 7:00pm Clock in - began working on PHP for wordpress
+- 9:00pm Clock out  
+
+3/3/2020
+- 8:00am Clock in - continued working on PHP for wordpress
+- 9:30am Clock out -
+
+3/4/2020
+- 11:00am Clock in - errors with PHP and Wordpress and converting current styles over, will begin looking into Squarespace developer  
+- 12:00pm Clock out -
+
+3/5/2020
+- 7:00pm Clock in - 
+- 9:00pm Clock out -
+
+3/6/2020
+- 7:00pm Clock in - 
+- 9:00pm Clock out -
+
+3/7/2020
+- 7:00pm Clock in - 
+- 9:00pm Clock out -
+
+3/8/2020
+- 7:00pm Clock in - 
+- 9:00pm Clock out -
+
+3/9/2020
+- 7:00pm Clock in - 
+- 9:00pm Clock out -
+
+3/10/2020
+- 6:00pm Clock in - 
+- 9:00pm Clock out -
