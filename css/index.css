@@ -2,7 +2,7 @@
   font-family: 'Dancing Script';
   font-weight: bold;
   color: #60C291;
-  font-size: 96px;
+  font-size: 36px;
 }
 .section-text {
   font-family: 'Lora';
@@ -32,7 +32,7 @@
   font-family: 'Lora';
   font-weight: normal;
   color: #F4EFEB;
-  font-size: 20px;
+  font-size: 12px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -214,13 +214,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 100px;
 }
 h1 {
   font-family: 'Dancing Script';
   font-weight: bold;
   color: #60C291;
-  font-size: 96px;
+  font-size: 36px;
 }
 h2 {
   font-family: 'Lora';
@@ -236,7 +236,7 @@ a:hover {
 nav {
   background: #60C291;
   width: 100%;
-  height: 100px;
+  height: 30px;
   margin-top: 0;
   display: flex;
   justify-content: space-around;
@@ -252,7 +252,7 @@ a {
   font-family: 'Lora';
   font-weight: normal;
   color: #F4EFEB;
-  font-size: 20px;
+  font-size: 12px;
 }
 .main-content {
   width: 100%;
@@ -261,6 +261,10 @@ a {
   justify-content: center;
   align-content: center;
   margin: auto;
+  background-image: url("/img/photos//USAPL\ 2019\ State\ Championships-302.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .emblem {
   width: 300px;
@@ -311,9 +315,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
-  margin-top: 50px;
-  font-size: large;
+  height: 30px;
+}
+footer h3 {
+  font-size: small;
 }
 .coaching-main-content {
   width: 100%;
@@ -354,7 +359,7 @@ footer {
   margin: auto;
 }
 .about-main-content {
-  width: 100%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -365,6 +370,11 @@ footer {
   margin: 50px auto;
   display: flex;
 }
+.orange-pose {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
 .carousel-form {
   display: flex;
   justify-content: center;
@@ -372,7 +382,7 @@ footer {
   align-items: center;
   margin: 10px 5px 50px 5px;
   background: grey;
-  width: 60%;
+  width: 50%;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -384,6 +394,7 @@ footer {
 }
 .content {
   display: flex;
+  flex-direction: row-reverse;
   width: 60%;
   margin: 50px auto;
 }
