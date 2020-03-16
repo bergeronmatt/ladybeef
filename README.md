@@ -63,7 +63,7 @@ Timeline
 - 9:30am Clock out -
 
 3/4/2020
-- 11:00am Clock in - errors with PHP and Wordpress and converting current styles over, will begin looking into Squarespace developer  
+- 9:00am Clock in - errors with PHP and Wordpress and converting current styles over, will begin looking into Squarespace developer  
 - 12:00pm Clock out -
 
 3/5/2020
@@ -90,8 +90,8 @@ Timeline
 - 8:00am Clock in - the PHP coding and attempts to conver over to the Wordpress and Squarespace site caused issues in the html/css/js code, will need to debug. 
 - 11:00am Clock out -
 - 6:00pm Clock in - continued to debug the code.
-- 7:30pm clock out
+- 8:30pm clock out
 
 3/10/2020
 - 6:00pm Clock in - Debugging completed. Styling and reformatting based on the client's notes from questionnaire
-- 8:15pm Clock out 
+- 8:30pm Clock out 
