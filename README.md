@@ -60,25 +60,29 @@ Timeline
 
 3/3/2020
 - 7:00am Clock in - continued working on PHP for wordpress
-- 9:30am Clock out -
+- 9:30am Clock out 
+- 5:30pm clock in - contine working on php
+- 8:00pm clock out
 
 3/4/2020
 - 11:00am Clock in - errors with PHP and Wordpress and converting current styles over, will begin looking into Squarespace developer  
 - 12:00pm Clock out -
+- 2:00pm Clock in - break from square space and continue editing and reactivity; working on graphics and editing photos for site. 
+- 4:00pm clock out
 
 3/5/2020
 - 5:00pm Clock in - continued working on styling and linking buttons for the pages
-- 8:30pm Clock out -
+- 9:30pm Clock out -
 
 3/6/2020
 - 7:00pm Clock in - continued styling and optimizing mobile formatting
-- 9:00pm Clock out -
+- 10:00pm Clock out -
 
 3/7/2020
 - 12:00pm Clock in - Attempting to make the wordpress site operational, wordpress will not be an option though
                     as it's requirements for creating a new template for the site and localizing the server is impractical as well
                     as not allowing for client side usage after launch. This will not be count towards the clients bill.
-- 9:00pm Clock out -
+- 10:00pm Clock out -
 
 3/8/2020
 - 11:00am Clock in - Attempting to make a squarespace site operational, squarespace will not be an option though
@@ -90,8 +94,8 @@ Timeline
 - 8:00am Clock in - the PHP coding and attempts to conver over to the Wordpress and Squarespace site caused issues in the html/css/js code, will need to debug. 
 - 11:00am Clock out -
 - 6:00pm Clock in - continued to debug the code.
-- 7:30pm clock out
+- 8:30pm clock out
 
 3/10/2020
-- 6:00pm Clock in - Debugging completed. Styling and reformatting based on the client's notes from questionnaire
-- 8:15pm Clock out 
+- 3:00pm Clock in - Debugging completed. Styling and reformatting based on the client's notes from questionnaire
+- 8:30pm Clock out 
