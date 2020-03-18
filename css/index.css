@@ -32,7 +32,12 @@
   font-family: 'Lora';
   font-weight: normal;
   color: #F4EFEB;
-  font-size: 12px;
+  font-size: 16px;
+}
+@media (max-width: 500px) {
+  .nav-text {
+    font-size: 10px;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -228,10 +233,17 @@ h2 {
   color: #60C291;
   font-size: 36px;
 }
+P {
+  font-family: 'Lora';
+}
 a:hover {
   text-decoration: underline;
   font-weight: bolder;
   color: #DCBBB4;
+  transition: 0.3s;
+}
+body {
+  background-color: #F4EFEB;
 }
 nav {
   background: #60C291;
@@ -242,17 +254,27 @@ nav {
   justify-content: space-around;
 }
 ul {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 500px) {
+  ul {
+    width: 900%;
+  }
+}
 a {
   font-family: 'Lora';
   font-weight: normal;
   color: #F4EFEB;
-  font-size: 12px;
+  font-size: 16px;
+}
+@media (max-width: 500px) {
+  a {
+    font-size: 10px;
+  }
 }
 .main-content {
   width: 100%;
@@ -290,6 +312,8 @@ a {
   font-size: 18px;
   border-radius: 8px;
   color: #F4EFEB;
+  font-family: 'Lora';
+  transition: 0.3s;
 }
 .about-btn:hover,
 .coaching-btn:hover,
@@ -308,6 +332,16 @@ a {
 .sm-emblem {
   width: 100px;
   height: 100px;
+}
+.sm-emblem:hover {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+@media (max-width: 500px) {
+  .sm-emblem {
+    width: 100%;
+    height: 100%;
+  }
 }
 footer {
   background: #60C291;
@@ -366,6 +400,11 @@ footer h3 {
   align-content: center;
   margin: auto;
 }
+@media (max-width: 500px) {
+  .about-main-content {
+    width: auto;
+  }
+}
 .about-title {
   margin: 50px auto;
   display: flex;
@@ -374,6 +413,12 @@ footer h3 {
   display: flex;
   width: 60%;
   margin: auto;
+}
+@media (max-width: 500px) {
+  .orange-pose {
+    width: auto;
+    margin-bottom: 10px;
+  }
 }
 .carousel-form {
   display: flex;
@@ -418,6 +463,8 @@ footer h3 {
   font-size: 18px;
   border-radius: 8px;
   color: #F4EFEB;
+  font-family: 'Lora';
+  transition: 0.3s;
 }
 .testimonial-btn:hover,
 .publication-btn:hover {
@@ -448,12 +495,25 @@ footer h3 {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
   margin: auto;
+  margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .pic-content {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .certifications {
   display: flex;
   margin: 30px auto;
   margin-bottom: 0%;
+}
+@media (max-width: 500px) {
+  .certifications {
+    font-size: x-large;
+  }
 }
 .certifications-content {
   text-align: center;
@@ -477,6 +537,12 @@ footer h3 {
   align-items: center;
   width: 80%;
   margin: auto;
+}
+@media (max-width: 500px) {
+  .testimonial-container {
+    width: auto;
+    flex-direction: column;
+  }
 }
 .client-testimonial {
   width: 50%;
@@ -519,6 +585,8 @@ footer h3 {
   font-size: 18px;
   border-radius: 8px;
   color: #60C291;
+  font-family: 'Lora';
+  transition: 0.3s;
 }
 .publication-section button:hover {
   background-color: #60C291;
