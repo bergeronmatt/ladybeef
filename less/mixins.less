@@ -13,6 +13,8 @@
     font-size: 18px;
     border-radius: 8px;
     color: @font-color;
+    font-family: 'Lora';
+    transition: 0.3s;
 
     &:hover{
         background-color: @border-color;
@@ -63,5 +65,9 @@
     font-family: 'Lora', ;
     font-weight: normal;
     color: @marble-white;
-    font-size: 12px;
+    font-size: 16px;
+
+    @media(max-width: 500px){
+        font-size: 10px;
+    }
 }
