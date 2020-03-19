@@ -6,12 +6,15 @@
         padding: 16px;
         font-size: 16px;
         font-family: 'Lora';
-        border: none;
     }
 
     .dropdown {
         position: relative;
         display: inline-block;
+
+        @media (min-width: 501px) {
+            display: none;
+        }
       }
   
       /* Dropdown Content (Hidden by Default) */
@@ -43,12 +46,7 @@
   
       /* Change the background color of the dropdown button when the dropdown content is shown */
       .dropdown:hover .dropbtn {background-color: @mint-green;}
-  
-      .dropbtn{
-          @media (min-width: 481px){
-              display:none;
-          }
-      }
+
 
       .dropbtn{
         display: block;
@@ -72,8 +70,11 @@
       }
 
       .navigation{
+          @media (max-width: 501px) {
+              
           background-color: @marble-white;
-      }
+          }
+        }
       
 
 }

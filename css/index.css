@@ -672,11 +672,15 @@ footer h3 {
   padding: 16px;
   font-size: 16px;
   font-family: 'Lora';
-  border: none;
 }
 .header .dropdown {
   position: relative;
   display: inline-block;
+}
+@media (min-width: 501px) {
+  .header .dropdown {
+    display: none;
+  }
 }
 .header .drop-nav {
   display: none;
@@ -704,11 +708,6 @@ footer h3 {
 .header .dropdown:hover .dropbtn {
   background-color: #60C291;
 }
-@media (min-width: 481px) {
-  .header .dropbtn {
-    display: none;
-  }
-}
 .header .dropbtn {
   display: block;
   background-color: #60C291;
@@ -728,6 +727,8 @@ footer h3 {
     display: none;
   }
 }
-.header .navigation {
-  background-color: #F4EFEB;
+@media (max-width: 501px) {
+  .header .navigation {
+    background-color: #F4EFEB;
+  }
 }
