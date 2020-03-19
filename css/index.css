@@ -288,6 +288,14 @@ a {
   background-attachment: fixed;
   background-size: cover;
 }
+@media (max-width: 500px) {
+  .main-content {
+    background-image: url("../img/photos/USAPL\ 2019\ State\ Championships-302.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
 .emblem {
   width: 300px;
   margin: 50px auto;
@@ -362,14 +370,12 @@ footer h3 {
   align-content: center;
   margin: auto;
 }
-.signup-form {
-  display: flex;
+.typeform-widget {
   justify-content: center;
   align-content: center;
   align-items: center;
   margin: 10px 5px 50px 5px;
-  background: grey;
-  width: 540px;
+  width: 50%;
   height: 280px;
   margin: auto;
 }
