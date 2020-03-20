@@ -530,8 +530,11 @@ footer h3 {
   justify-content: center;
   width: 100%;
 }
-.published-container img {
-  margin: auto;
+@media (max-width: 500px) {
+  .published-container {
+    width: 50%;
+    flex-direction: column;
+  }
 }
 .testimonial-title {
   margin: 50px auto;
