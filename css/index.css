@@ -288,6 +288,14 @@ a {
   background-attachment: fixed;
   background-size: cover;
 }
+@media (max-width: 500px) {
+  .main-content {
+    background-image: url("../img/photos/USAPL\ 2019\ State\ Championships-302.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
 .emblem {
   width: 300px;
   margin: 50px auto;
@@ -362,14 +370,12 @@ footer h3 {
   align-content: center;
   margin: auto;
 }
-.signup-form {
-  display: flex;
+.typeform-widget {
   justify-content: center;
   align-content: center;
   align-items: center;
   margin: 10px 5px 50px 5px;
-  background: grey;
-  width: 540px;
+  width: 50%;
   height: 280px;
   margin: auto;
 }
@@ -381,7 +387,7 @@ footer h3 {
   align-content: center;
   margin: auto;
 }
-.signup-form {
+.typeform-widget {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -517,6 +523,15 @@ footer h3 {
 }
 .certifications-content {
   text-align: center;
+}
+.published-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+}
+.published-container img {
+  margin: auto;
 }
 .testimonial-title {
   margin: 50px auto;
@@ -731,4 +746,42 @@ footer h3 {
   .header .navigation {
     background-color: #F4EFEB;
   }
+}
+.blog-title {
+  margin: 50px auto;
+  margin-bottom: 10px;
+  display: flex;
+}
+.blog-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 10px auto;
+}
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+@media (max-width: 500px) {
+  .blog-container {
+    width: auto;
+    flex-direction: column;
+  }
+}
+.blog {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px auto;
+}
+.buttons {
+  margin-top: 3%;
 }

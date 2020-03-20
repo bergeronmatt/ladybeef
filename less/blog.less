@@ -1,9 +1,46 @@
 //Blog LESS file
 
-#wrapper{
-    widows: 800px;
-    margin-left: auto;
-    margin-right: auto;
+
+.blog-title{
+    margin: 50px auto;
+    margin-bottom: 10px;
+    display: flex;
 }
 
-#blog-header
+.blog-main-content{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 10px auto;
+}
+
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+
+
+    @media(max-width: 500px){
+        width: auto;
+        flex-direction: column;
+    }
+}
+
+.blog{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px auto;
+}
+
+.buttons{
+    margin-top: 3%;
+}
