@@ -371,11 +371,12 @@ footer h3 {
   margin: auto;
 }
 .typeform-widget {
+  display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin: 10px 5px 50px 5px;
-  width: 50%;
+  background: grey;
+  width: 60%;
   height: 280px;
   margin: auto;
 }
@@ -387,14 +388,13 @@ footer h3 {
   align-content: center;
   margin: auto;
 }
-.typeform-widget {
+.client-typeform-widget {
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin: 10px 5px 50px 5px;
   background: grey;
-  width: 540px;
+  width: 60%;
   height: 280px;
   margin: auto;
 }
