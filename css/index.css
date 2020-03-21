@@ -371,13 +371,19 @@ footer h3 {
   margin: auto;
 }
 .typeform-widget {
+  display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin: 10px 5px 50px 5px;
   width: 50%;
   height: 280px;
   margin: auto;
+}
+@media (max-width: 500px) {
+  .typeform-widget {
+    width: 50%;
+    justify-content: center;
+  }
 }
 .coaching-main-content {
   width: 100%;
