@@ -15,7 +15,23 @@
     align-content: center;
     align-items: center;
     background: grey;
-    width: 60%;
+    width: 540px;
     height: 280px;
     margin: auto;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
+}
+
+.client-btn{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+
+    @media(min-width: 500px){
+        display: none;
+    }
 }

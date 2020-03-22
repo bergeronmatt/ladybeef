@@ -6,18 +6,35 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin: auto;
+    margin: 10px auto;
 }
 
 
 
-.typeform-widget{
+.coaching-typeform-widget{
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
     background: grey;
     width: 60%;
-    height: 280px;
+    height:250px;
     margin: auto;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
+
+}
+
+.coaching-btn{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+
+    @media(min-width: 500px){
+        display: none;
+    }
 }
