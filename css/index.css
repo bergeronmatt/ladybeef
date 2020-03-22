@@ -370,7 +370,7 @@ footer h3 {
   align-content: center;
   margin: 10px auto;
 }
-.coaching-typeform-widget {
+.typeform-widget {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -381,7 +381,7 @@ footer h3 {
   margin: auto;
 }
 @media (max-width: 500px) {
-  .coaching-typeform-widget {
+  .typeform-widget {
     display: none;
   }
 }
@@ -404,18 +404,18 @@ footer h3 {
   align-content: center;
   margin: auto;
 }
-.client-typeform-widget {
+.typeform-widget {
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
   background: grey;
-  width: 540px;
-  height: 280px;
+  width: 60%;
+  height: 250px;
   margin: auto;
 }
 @media (max-width: 500px) {
-  .client-typeform-widget {
+  .typeform-widget {
     display: none;
   }
 }
