@@ -4,6 +4,11 @@
   color: #60C291;
   font-size: 36px;
 }
+@media (max-width: 500px) {
+  .header-text {
+    font-size: 24px;
+  }
+}
 .section-text {
   font-family: 'Lora';
   font-weight: normal;
@@ -221,11 +226,21 @@ img {
   align-items: center;
   height: 100px;
 }
+@media (max-width: 500px) {
+  .title {
+    height: 50px;
+  }
+}
 h1 {
   font-family: 'Dancing Script';
   font-weight: bold;
   color: #60C291;
   font-size: 36px;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 24px;
+  }
 }
 h2 {
   font-family: 'Lora';
