@@ -88,7 +88,6 @@ a{
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        height: 650px;
     }
 }
 
@@ -104,10 +103,14 @@ a{
     flex-direction: row;
     justify-content: center;
     margin: 10px 5px 50px 5px;
+
+    @media (max-width: 500px) {
+        margin-bottom: 10px;
+    }
 }
 
 .about-btn, .coaching-btn, .blog-btn{
-    .custom-btn(@mint-green, @marble-white, @marble-white)
+    .custom-btn(@mint-green, @marble-white, @marble-white);
 }
 
 //Social Media Eblems
