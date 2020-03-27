@@ -9,17 +9,20 @@
     margin: 10px auto;
 }
 
-
-
-.coaching-typeform-widget{
+.widget-container{
+    width: 80%;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    background: grey;
-    width: 60%;
-    height:250px;
     margin: auto;
+    justify-content: center;
+    flex-direction: column;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
+}
+
+.typeform-widget{
+
 
     @media (max-width: 500px) {
         display: none;
