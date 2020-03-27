@@ -351,6 +351,13 @@ a {
   border-color: #60C291;
   color: #60C291;
 }
+@media (max-width: 500px) {
+  .about-btn,
+  .coaching-btn,
+  .blog-btn {
+    padding-bottom: 0;
+  }
+}
 .social-media-emblems {
   width: 60%;
   display: flex;
@@ -531,6 +538,12 @@ footer h3 {
   border-color: #60C291;
   color: #60C291;
 }
+@media (max-width: 500px) {
+  .testimonial-btn,
+  .publication-btn {
+    padding-bottom: 0;
+  }
+}
 #prev-btn {
   position: absolute;
   top: 50%;
@@ -665,6 +678,11 @@ footer h3 {
   background-color: #60C291;
   border-color: #F4EFEB;
   color: #F4EFEB;
+}
+@media (max-width: 500px) {
+  .publication-section button {
+    padding-bottom: 0;
+  }
 }
 .media-main-content {
   width: 100%;
